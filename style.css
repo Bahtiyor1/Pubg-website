@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 57px;
+    align-items: center;
+    background-color: black;
+}
+
+.setting_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.setting_wrapper > select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+
+}
+
+
+select>option {
+    color: black;
+}
+
+.setting_wrapper>button {
+    width: 192px;
+    height: 82px;
+    background-color: #F1A900;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+
+.header_nav {
+    height: 44px;
+    background-color:#222222;
+}
+
+.header_nav > .navi {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 302px 13px 285px;
+}
+
+.navi > select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: center;    
+}
+
+
+.navi > button {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: center;
+    color: white;   
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.navi > button:hover {
+    color: gray;
+}
+
+.website_main {
+    background-image: url(./assets/img/Pubg_background_img.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.device {
+    display: flex;
+    justify-content: space-around;
+    padding: 349px 453px 0;
+}
+
+.device > .Pc > a {
+    color: black;
+    width: 235px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.device > .Pc {
+    background-color: #F1A900;
+    border: none;
+    outline: none;
+}
+
+
+.device > .Console > a {
+    color: white;
+    width: 235px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+    border: none;
+    text-decoration: none;  
+}
+
+.device >.Console {
+    background-color: black;
+    border: none;
+    outline: none;
+}
+
+.Erangel {
+    width: 966px;
+    height: 202px;
+    background-color: rgba(241, 169, 0, 0.33);
+    margin: 31px 211px 142px 263px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Erangel > h1 {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+    color: white;   
+}
+
+
+.website_footer {
+    height: 101px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 57px;
+}
+
+
+.social_networks {
+    display: flex;
+    gap: 52px;
+}
+
